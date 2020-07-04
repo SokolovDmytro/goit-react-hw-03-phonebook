@@ -44,7 +44,7 @@ class ContactForm extends Component {
             type="tel"
             pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
             name="number"
-            placeholder="Enter Number"
+            placeholder="123-321-1111"
             onChange={this.handleChange}
             value={this.state.number}
           />
